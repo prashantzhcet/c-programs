@@ -1,7 +1,6 @@
 #include <stdio.h>
 int main()
 {
-
     int n,i,j,ans=0,a;
     scanf("%d",&n);
     printf("1\n");
@@ -18,7 +17,7 @@ int main()
     			ans=ans*a;
     			ans=ans/j;
 			}
-    		printf("%ld ",ans);
+    		printf("%d ",ans);
     	}
     	printf("\n");
     }
